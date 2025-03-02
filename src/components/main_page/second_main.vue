@@ -1,9 +1,13 @@
 <script setup>
+import ellipse1 from '../../assets/Ellipse 7.png';
+import ellipse2 from '../../assets/Ellipse 4.png';
+import ellipse3 from '../../assets/Ellipse 6.png';
+
 const images = [
-  { src: '/src/assets/Ellipse 7.png', alt: 'Gambar 1' },    
-  { src: '/src/assets/Ellipse 4.png', alt: 'Gambar 2' },
-  { src: '/src/assets/Ellipse 6.png', alt: 'Gambar 3' } // Gambar ini berada di tengah atas
-]
+  { src: ellipse1, alt: 'Gambar 1' },    
+  { src: ellipse2, alt: 'Gambar 2' },
+  { src: ellipse3, alt: 'Gambar 3' }
+];
 </script>
 
 <template>
