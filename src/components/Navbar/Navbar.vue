@@ -5,7 +5,7 @@ import { ref, onMounted } from 'vue';
 const isOpen = ref(false);
 
 const navigation = [
-  { name: 'About Us', href: '#' },
+  { name: 'About Usp', href: '#' },
   { name: 'Program', href: '#' },
   { name: 'Internship', href: '#' },
   { name: 'Article', href: '#' },
